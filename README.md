@@ -2,7 +2,7 @@
 
 ## Pense-bête Git
 
-## Historiser ses modifications (faire un commit)
+### Historiser ses modifications (faire un commit)
 
 1. Afficher l'état du répertoire de travail : `git status`,
 2. Ajouter à l'index (au _staging_) les fichiers à commiter : `git add <fichiers>` (ou `git add .` si on veut ajouter tout le répertoire courant),
