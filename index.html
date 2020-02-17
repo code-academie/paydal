@@ -5,13 +5,14 @@
         <title>Paydal</title>
     </head>
     <body>
-        <form action="index.html">
+        <form action="ajoutKilo.php" method="POST">
             <div>
                 Kilométrage total&nbsp;: 0 km
             </div>
             <div>
                 <label for="kiloReal">Kilometrage réalisé&nbsp;:</label>
                 <input type="text" name="kiloReal" value="0">
+                <input type="hidden" name="secret" value="chut">
                 <input type="submit" name="action" value="Ajouter">
             </div>
         </form>
