@@ -45,8 +45,7 @@ Nous utilisons [SemVer](http://semver.org/) pour le versioning. Pour les version
 
 * Documentation : [Wiki](https://github.com/bdelion/paydal/wiki)
 
-
-# Application de saisie des frais kilométriques
+---
 
 ## Pense-bête Git
 
