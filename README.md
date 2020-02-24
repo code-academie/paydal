@@ -40,3 +40,16 @@
 7. L'utiliser en paramètre de `getElementById`,
 8. Récupérer la valeur via l'attribut `value` de l'élément,
 9. Afficher cette valeur avec la fonction `alert`.
+
+### Stocker la valeur saisie dans un fichier pour la restituer sur la page d'accueil
+
+1. Transformer `index.html` en `index.php`,
+2. À la racine du projet, créer un fichier pour y stocker le nombre de kilomètres réalisés (e.g. `kiloStock`),
+3. Y renseigner arbitrairement un nombre de kilomètres réalisés,
+4. Utiliser la fonction PHP `fsopen` pour obtenir un _handle_ sur le fichier,
+5. Utiliser la fonction `fread` pour lire le contenu du fichier et le restituer dans `index.php`.
+6. Dans `ajoutKilo.php`, utiliser `fread` pour lire le contenu du fichier et y lire les kilomètres déjà réalisés,
+7. Effectuer une addition pour ajouter les kilomètres envoyés par le client à ceux déjà saisis dans le fichier,
+8. Utiliser `ftruncate` et `frewind` pour effacer le fichier et revenir au début,
+9. Utiliser la fonction `fwrite` pour écrire le nouveau solde de kilomètres dans le fichier,
+10. Utiliser la fonction `fread` pour lire le contenu du fichier et le restituer dans `index.php`.
