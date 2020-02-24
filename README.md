@@ -10,7 +10,7 @@
 > 
 > Ce projet est développé dans le cadre de la **Code Académie**.
 
-### 🏠 [Homepage](https://github.com/bdelion/paydal/tree/master)
+## 🏠 [Homepage](https://github.com/bdelion/paydal/tree/master)
 
 ## Usage
 
